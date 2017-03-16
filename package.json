@@ -1,0 +1,30 @@
+{
+  "name": "algorithms",
+  "description": "JS algorithm playground",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "./node_modules/.bin/jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoopoetics/algorithms.git"
+  },
+  "keywords": [
+    "js",
+    "algorithm"
+  ],
+  "author": "Peter Barker",
+  "license": "MIT",
+  "jest": {
+    "testRegex": "index-test.js"
+  },
+  "devDependencies": {
+    "babel-jest": "^19.0.0",
+    "babel-preset-latest": "^6.24.0",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "jest": "^19.0.2",
+    "regenerator-runtime": "^0.10.3"
+  }
+}
