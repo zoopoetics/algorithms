@@ -1,17 +1,16 @@
 export default (input) => {
-  const values = [...input];
   let isSorted = true;
   do {
     isSorted = true;
-    for (let ii = 0; ii < values.length; ii++) {
-      const current = values[ii];
-      const next = values[ii + 1];
+    for (let ii = 0; ii < input.length; ii++) {
+      const current = input[ii];
+      const next = input[ii + 1];
       if (current > next) {
-        values[ii] = next;
-        values[ii + 1] = current;
+        input[ii] = next;
+        input[ii + 1] = current;
         isSorted = false;
       }
     }
   } while (!isSorted);
-  return values;
+  return input;
 };
