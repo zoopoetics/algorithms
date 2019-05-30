@@ -19,12 +19,13 @@
     "testRegex": "index-test.js"
   },
   "dependencies": {
-    "babel-core": "6.26.0",
-    "babel-eslint": "8.2.2",
-    "babel-jest": "22.4.3",
-    "babel-preset-env": "1.6.1",
-    "eslint": "4.19.1",
-    "eslint-plugin-import": "2.10.0",
-    "jest": "22.4.3"
+    "@babel/core": "^7.4.5",
+    "babel-core": "6.26.3",
+    "babel-eslint": "10.0.1",
+    "babel-jest": "24.8.0",
+    "babel-preset-env": "1.7.0",
+    "eslint": "5.16.0",
+    "eslint-plugin-import": "2.17.3",
+    "jest": "24.8.0"
   }
 }
